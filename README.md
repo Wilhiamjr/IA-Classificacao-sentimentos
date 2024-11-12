@@ -1,0 +1,30 @@
+projeto/
+  app/
+    main.py
+    routes/
+      __init__.py
+      api.py
+    models/
+      __init__.py
+      modelo_ia.py
+    schemas/
+      __init__.py
+      schema_api.py
+    services/
+      __init__.py
+      servico_ia.py
+  requirements.txt
+  Dockerfile
+  docker-compose.yml
+  data/
+    raw/
+    processed/
+    models/
+    logs/
+  tests/
+    test_api.py
+    test_models.py
+    test_services.py
+  README.md
+
+  Projeto de IA de classificação de sentimentos de textos utilizando FastAPI e a biblioteca de aprendizado de máquina Scikit-Learn.
